@@ -14,6 +14,7 @@ target "default" {
     platforms = ["linux/amd64", "linux/arm64"]
 
     tags = [
-        "ghcr.io/erisa/ts-bunny"
+        "ghcr.io/erisa/ts-bunny:${TS_VERSION}",
+        LATEST ? "ghcr.io/erisa/ts-bunny:latest" : ""
     ]
 }
