@@ -1,5 +1,5 @@
 variable "TS_VERSION" {
-    default = "v1.98.4"
+    default = "v1.98.9"
 }
 
 variable "LATEST" {
