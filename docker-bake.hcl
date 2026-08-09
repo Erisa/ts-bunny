@@ -1,5 +1,5 @@
 variable "TS_VERSION" {
-    default = "v1.98.10"
+    default = "v1.102.2"
 }
 
 variable "LATEST" {
